@@ -1,6 +1,9 @@
 <header>
   <h2>{{ title }}</h2>
+
+  <a routerLink="/"> Home </a>
   <a routerLink="/contact"> contact </a>
+  <a routerLink="/login"> Login </a>
   <div class="images">
     <div *ngFor="let item of listImage">
       <img [src]="item" alt="" />

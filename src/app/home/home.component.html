@@ -1,29 +1,35 @@
-
-<section id="mindVideo" class="drow w-100 justify-content-center">
-  <app-mind class="col-6"></app-mind>
-  <app-viewvideo class="col-6"></app-viewvideo>
-</section>
-<app-carrousel></app-carrousel>
-<hr />
-<section
-  id="advantage"
-  class="d-flex justify-content-center align-items-center flex-column"
->
-  <div class="row w-100 justify-content-center">
-    <app-advantage class="col-3 m-1"></app-advantage>
-    <app-advantage class="col-3 m-1"></app-advantage>
-    <app-advantage class="col-3 m-1"></app-advantage>
+<div id="container">
+  <section id="mindVideo">
+    <div class="col-md-6">
+      <app-mind></app-mind>
+    </div>
+    <div class="col-md-6">
+      <app-viewvideo></app-viewvideo>
+    </div>
+  </section>
+  <div class="col">
+    <app-carrousel></app-carrousel>
   </div>
-  <div class="row w-100 justify-content-center">
-    <app-advantage class="col-3 m-1"></app-advantage>
-    <app-advantage class="col-3 m-1"></app-advantage>
-    <app-advantage class="col-3 m-1"></app-advantage>
-  </div>
-</section>
-<hr />
-<section id="testimony">
-  <app-testimony></app-testimony>
-  <app-testimony></app-testimony>
-</section>
-<hr />
-
+  <hr />
+  <section
+    id="advantage"
+    class="d-flex justify-content-center align-items-center flex-column"
+  >
+    <div class="row w-100 justify-content-center">
+      <app-advantage class="col-3 m-1"></app-advantage>
+      <app-advantage class="col-3 m-1"></app-advantage>
+      <app-advantage class="col-3 m-1"></app-advantage>
+    </div>
+    <div class="row w-100 justify-content-center">
+      <app-advantage class="col-3 m-1"></app-advantage>
+      <app-advantage class="col-3 m-1"></app-advantage>
+      <app-advantage class="col-3 m-1"></app-advantage>
+    </div>
+  </section>
+  <hr />
+  <section id="testimony">
+    <app-testimony></app-testimony>
+    <app-testimony></app-testimony>
+  </section>
+  <hr />
+</div>
