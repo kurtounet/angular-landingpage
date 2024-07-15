@@ -7,11 +7,13 @@ section#mindVideo {
 }
 
 section#advantage {
+    padding: 30px;
     display: flex;
     flex-wrap: wrap;
 }
 
 section#testimony {
+
     padding: 30px;
     display: flex;
 
