@@ -1,0 +1,23 @@
+header {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+}
+
+h2 {
+    color: white;
+}
+
+div.images {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+img {
+    object-fit: cover;
+    height: 25px;
+    width: 25px;
+}

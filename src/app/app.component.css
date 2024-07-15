@@ -1,0 +1,18 @@
+section#mindVideo {
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+section#advantage {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+section#testimony {
+    padding: 30px;
+    display: flex;
+
+}

@@ -1,0 +1,28 @@
+h2 {
+    color: black;
+}
+
+.title {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+
+
+div.number {
+    background-color: black;
+    color: white;
+    margin: 20px;
+    padding: 10px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p {
+    color: gray;
+}

@@ -1,0 +1,11 @@
+img {
+    object-fit: cover;
+    padding: 20px;
+    width: 200px;
+
+}
+
+div {
+    display: flex;
+    align-items: center;
+}
