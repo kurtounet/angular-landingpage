@@ -28,36 +28,5 @@ import { NgFor } from '@angular/common';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'landingpage';
-
-  nbTestamies = 2;
-  nbAdvantages = 6;
-  nbCarrouselsImages = 6;
-
-  listAdvantage =[
-    {
-    title:"Lorem ipsum 1",
-    text:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae fugit,Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae fugit,"
-  },{
-    title:"Lorem ipsum 2",
-    text:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae fugit,Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae fugit,"
-  },
-  {
-    title:"Lorem ipsum 3",
-    text:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae fugit,Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae fugit,"
-  },
-  {
-    title:"Lorem ipsum 4",
-    text:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae fugit,Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae fugit,"
-  }, 
-  {
-    title:"Lorem ipsum 5",
-    text:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae fugit,Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae fugit,"
-  },
-  {
-    title:"Lorem ipsum 6",
-    text:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae fugit,Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae fugit,"
-  }
   
-  ]
 }
